@@ -1,0 +1,73 @@
+.bikeNumberFormWrapper {
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
+
+  p {
+    margin: 1rem auto;
+    font-size: 13px;
+  }
+
+  p:nth-child(4) {
+    font-size: 12px;
+    margin: 1rem auto;
+  }
+
+  .forwardButton {
+    position: absolute;
+    right: -50px;
+    cursor: pointer;
+
+    @media (max-width: 767px) {
+      position: initial;
+      margin: 10px auto;
+    }
+
+    svg {
+      width: 50px;
+      height: auto;
+      transition: all 0.2s ease;
+
+      &:hover {
+        fill: blue;
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  .links {
+    margin: 20px auto;
+    text-align: center;
+
+    p {
+      cursor: pointer;
+      margin: 0.5rem auto;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+
+  .bikeInputWrapper {
+    display: flex;
+    justify-content: center;
+
+    input {
+      // width: 100px;
+      // margin: 0 10px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .inputError {
+      transition: all 0.5 ease;
+      border: 2px solid red;
+      outline: none;
+      color: red;
+      box-shadow: 0px 0px 10px red;
+
+      &::placeholder {
+        color: rgba(255, 0, 0, 0.3) !important;
+      }
+    }
+  }
+}

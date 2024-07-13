@@ -1,0 +1,92 @@
+[
+    {
+      "NUM_REGISTRATION_CODE": "GJ02",
+      "TXT_RTO_LOCATION_CODE": 20696,
+      "TXT_RTO_LOCATION_DESC": "MEHSANA",
+      "TXT_RTO_CLUSTER": "CATEGORY 2",
+      "NUM_STATE_CODE": 12,
+      "TXT_REGISTRATION_ZONE": "Zone-B",
+      "UW_RULES": "Active"
+    },
+    {
+      "NUM_REGISTRATION_CODE": "WB01",
+      "TXT_RTO_LOCATION_CODE": 20477,
+      "TXT_RTO_LOCATION_DESC": "KOLKATA",
+      "TXT_RTO_CLUSTER": "CATEGORY 3",
+      "NUM_STATE_CODE": 1,
+      "TXT_REGISTRATION_ZONE": "Zone-A",
+      "UW_RULES": "Active"
+    },
+    {
+      "NUM_REGISTRATION_CODE": "JH12",
+      "TXT_RTO_LOCATION_CODE": 20044,
+      "TXT_RTO_LOCATION_DESC": "KODERMA",
+      "TXT_RTO_CLUSTER": "CATEGORY 14",
+      "NUM_STATE_CODE": 15,
+      "TXT_REGISTRATION_ZONE": "Zone-B",
+      "UW_RULES": "Active"
+    },
+    {
+      "NUM_REGISTRATION_CODE": "MH12",
+      "TXT_RTO_LOCATION_CODE": 20906,
+      "TXT_RTO_LOCATION_DESC": "PUNE",
+      "TXT_RTO_CLUSTER": "CATEGORY 8",
+      "NUM_STATE_CODE": 20,
+      "TXT_REGISTRATION_ZONE": "Zone-A",
+      "UW_RULES": "Active"
+    },
+    {
+      "NUM_REGISTRATION_CODE": "UP11",
+      "TXT_RTO_LOCATION_CODE": 20564,
+      "TXT_RTO_LOCATION_DESC": "SAHARANPUR",
+      "TXT_RTO_CLUSTER": "CATEGORY 12",
+      "NUM_STATE_CODE": 33,
+      "TXT_REGISTRATION_ZONE": "Zone-B",
+      "UW_RULES": "Active"
+    },
+    {
+      "NUM_REGISTRATION_CODE": "AP07",
+      "TXT_RTO_LOCATION_CODE": 20738,
+      "TXT_RTO_LOCATION_DESC": "GUNTUR",
+      "TXT_RTO_CLUSTER": "CATEGORY 6",
+      "NUM_STATE_CODE": 2,
+      "TXT_REGISTRATION_ZONE": "Zone-B",
+      "UW_RULES": "Active"
+    },
+    {
+      "NUM_REGISTRATION_CODE": "OD02",
+      "TXT_RTO_LOCATION_CODE": 20627,
+      "TXT_RTO_LOCATION_DESC": "BHUBANESWAR",
+      "TXT_RTO_CLUSTER": "CATEGORY 3",
+      "NUM_STATE_CODE": 26,
+      "TXT_REGISTRATION_ZONE": "Zone-B",
+      "UW_RULES": "Active"
+    },
+    {
+      "NUM_REGISTRATION_CODE": "AP01",
+      "TXT_RTO_LOCATION_CODE": 20732,
+      "TXT_RTO_LOCATION_DESC": "ADILABAD",
+      "TXT_RTO_CLUSTER": "CATEGORY 6",
+      "NUM_STATE_CODE": 2,
+      "TXT_REGISTRATION_ZONE": "Zone-B",
+      "UW_RULES": "Active"
+    },
+    {
+      "NUM_REGISTRATION_CODE": "GA01",
+      "TXT_RTO_LOCATION_CODE": 20688,
+      "TXT_RTO_LOCATION_DESC": "PANAJI",
+      "TXT_RTO_CLUSTER": "CATEGORY 13",
+      "NUM_STATE_CODE": 11,
+      "TXT_REGISTRATION_ZONE": "Zone-B",
+      "UW_RULES": "Active"
+    },
+    {
+      "NUM_REGISTRATION_CODE": "MH01",
+      "TXT_RTO_LOCATION_CODE": 21170,
+      "TXT_RTO_LOCATION_DESC": "MUMBAI",
+      "TXT_RTO_CLUSTER": "CATEGORY 7",
+      "NUM_STATE_CODE": 20,
+      "TXT_REGISTRATION_ZONE": "Zone-A",
+      "UW_RULES": "Active"
+    }
+  ]

@@ -1,0 +1,31 @@
+.bikeMainWrapper {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 767px) {
+    height: auto;
+  }
+
+  .contentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .bikeNumberForm {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      padding: 100px 0px;
+
+      .bikeImageWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+    }
+  }
+}

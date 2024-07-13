@@ -1,0 +1,19 @@
+.pay_now_wrapper {
+  background-color: #000;
+  padding: 5em;
+
+  .table_wrapper {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+  }
+
+  .buttons_wrapper {
+    display: flex;
+    background-color: #000;
+  }
+}
+
+.table_items {
+  border-color: #000 !important;
+}

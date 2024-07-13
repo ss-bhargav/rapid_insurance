@@ -1,0 +1,74 @@
+[
+    {
+      "NUM_REGISTRATION_CODE": "GJ01",
+      "TXT_RTO_LOCATION_CODE": 20802,
+      "TXT_RTO_LOCATION_DESC": "AHMEDABAD",
+      "TXT_RTO_CLUSTER": "CATEGORY 2",
+      "NUM_STATE_CODE": 12,
+      "TXT_REGISTRATION_ZONE": "Zone-A",
+      "UW_RULES": "Active"
+    },
+    {
+      "NUM_REGISTRATION_CODE": "AP01",
+      "TXT_RTO_LOCATION_CODE": 20732,
+      "TXT_RTO_LOCATION_DESC": "ADILABAD",
+      "TXT_RTO_CLUSTER": "CATEGORY 6",
+      "NUM_STATE_CODE": 2,
+      "TXT_REGISTRATION_ZONE": "Zone-B",
+      "UW_RULES": "Active"
+    },
+    {
+      "NUM_REGISTRATION_CODE": "TN20",
+      "TXT_RTO_LOCATION_CODE": 20538,
+      "TXT_RTO_LOCATION_DESC": "TIRUVALLUR",
+      "TXT_RTO_CLUSTER": "CATEGORY 17",
+      "NUM_STATE_CODE": 31,
+      "TXT_REGISTRATION_ZONE": "Zone-B",
+      "UW_RULES": "Active"
+    },
+    {
+      "NUM_REGISTRATION_CODE": "GA01",
+      "TXT_RTO_LOCATION_CODE": 20688,
+      "TXT_RTO_LOCATION_DESC": "PANAJI",
+      "TXT_RTO_CLUSTER": "CATEGORY 13",
+      "NUM_STATE_CODE": 11,
+      "TXT_REGISTRATION_ZONE": "Zone-B",
+      "UW_RULES": "Active"
+    },
+    {
+      "NUM_REGISTRATION_CODE": "TN10",
+      "TXT_RTO_LOCATION_CODE": 10203,
+      "TXT_RTO_LOCATION_DESC": "CHENNAI SOUTH WEST",
+      "TXT_RTO_CLUSTER": "CATEGORY 16",
+      "NUM_STATE_CODE": 31,
+      "TXT_REGISTRATION_ZONE": "Zone-A",
+      "UW_RULES": "Active"
+    },
+    {
+      "NUM_REGISTRATION_CODE": "DL12",
+      "TXT_RTO_LOCATION_CODE": 10501,
+      "TXT_RTO_LOCATION_DESC": "DELHI",
+      "TXT_RTO_CLUSTER": "CATEGORY 1",
+      "NUM_STATE_CODE": 8,
+      "TXT_REGISTRATION_ZONE": "Zone-A",
+      "UW_RULES": "Active"
+    },
+    {
+      "NUM_REGISTRATION_CODE": "AP09",
+      "TXT_RTO_LOCATION_CODE": 20208,
+      "TXT_RTO_LOCATION_DESC": "Hyderabad",
+      "TXT_RTO_CLUSTER": "CATEGORY 5",
+      "NUM_STATE_CODE": 2,
+      "TXT_REGISTRATION_ZONE": "Zone-A",
+      "UW_RULES": "Active"
+    },
+    {
+      "NUM_REGISTRATION_CODE": "MH01",
+      "TXT_RTO_LOCATION_CODE": 21170,
+      "TXT_RTO_LOCATION_DESC": "MUMBAI",
+      "TXT_RTO_CLUSTER": "CATEGORY 7",
+      "NUM_STATE_CODE": 20,
+      "TXT_REGISTRATION_ZONE": "Zone-A",
+      "UW_RULES": "Active"
+    }
+  ]

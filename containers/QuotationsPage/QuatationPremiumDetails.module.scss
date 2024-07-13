@@ -1,0 +1,36 @@
+.detailsItem {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: auto;
+  margin: auto;
+  color: rgb(1, 3, 14);
+  p {
+    font-weight: 500;
+  }
+  .key1 {
+    width: 100px;
+    padding-left: 10px;
+    color: rgb(1, 3, 14);
+  }
+  .value1 {
+    width: 465px;
+    color: rgb(1, 3, 14);
+  }
+}
+.premiumCheckout {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  p {
+    font-weight: 500;
+  }
+  .key {
+    width: 210px;
+    padding-left: 10px;
+    color: rgb(1, 3, 14);
+  }
+  .value {
+    width: 10px;
+    color: rgb(1, 3, 14);
+    padding-right: 50px;
+  }
+}

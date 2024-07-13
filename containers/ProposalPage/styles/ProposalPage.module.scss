@@ -1,0 +1,28 @@
+.proposal {
+
+     display: flex;
+     justify-content: center;
+
+     &__inner {
+          width: 50%;
+          margin-top: 3rem;
+     }
+
+     &__generate {
+          width: 100%;
+          height: 10rem;
+     }
+
+     &__verify {
+
+          &_button {
+               text-align: center;
+               margin: 2em 0;
+          }
+     }
+
+     &__h4_wrapper {
+          text-align: center;
+          padding: 2em 0;
+     }
+}

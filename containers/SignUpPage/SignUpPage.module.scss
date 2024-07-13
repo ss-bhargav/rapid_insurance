@@ -1,0 +1,96 @@
+.signupMainWrapper {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .signInBox {
+        width: 600px;
+        // height : 250px;
+        padding: 3rem;
+        background-color: ash;
+        border-radius: 20px;
+        border: 2px solid #000;
+        text-align: center;
+    }
+
+    p{
+        color: red;
+    }
+    
+    .heading {
+        h4 {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .inputs {
+        input {
+            width: 80%;
+            padding: 0.5rem 1rem;
+            margin-bottom: 1rem;
+        }
+
+        svg {
+            width: 1.5rem;
+            height: auto;
+            margin-right: 1rem;
+            cursor: pointer;
+        }
+
+        p {
+            text-align: center;
+            color: red;
+        }
+
+        .validation {
+            outline: 2px solid red;
+        }
+    }
+
+    .usernameInput {
+    }
+
+    .passwordInput {
+    }
+
+    .emailInput {
+        
+    }
+
+    .mobileInput {
+
+    }
+
+    .buttons {
+        height : 3rem;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+
+        button {
+            border: 0 solid;
+            box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+            outline: 1px solid;
+            padding: 0.5rem 2rem;
+            outline-color: rgba(255, 255, 255, 0);
+            outline-offset: 0px;
+            text-shadow: none;
+            -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+            transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+            outline-color: rgba(0, 0, 0);
+            outline-offset: 0px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: rgba(255, 255, 255);
+        }
+
+        button:hover {
+            border: 1px solid;
+            box-shadow: inset 0 0 20px rgba(0, 0, 0), 0 0 20px rgba(0, 0, 0);
+            outline-offset: 15px;
+            outline-color: rgba(255, 255, 255, 0);
+            text-shadow: 1px 1px 2px #427388;
+        }
+    }
+}

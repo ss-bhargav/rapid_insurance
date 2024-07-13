@@ -1,0 +1,97 @@
+.header {
+  background-color: white;
+  height: 84px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2em;
+  z-index: 99;
+
+  @media (max-width: 767px) {
+    justify-content: space-between;
+  }
+
+  .logo {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    img {
+      height: 60px;
+    }
+  }
+
+  .mobileMenuBar {
+    display: none;
+    cursor: pointer;
+
+    @media (max-width: 767px) {
+      display: initial;
+    }
+
+    .mobileIconDiv {
+      vertical-align: middle;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    svg {
+      width: 2.5em;
+      height: auto;
+    }
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 767px) {
+      display: none;
+    }
+
+    ul {
+      display: flex;
+      margin: 0;
+    }
+
+    li {
+      list-style: none;
+      padding: 0.5em 2em;
+      transition: 0.3s ease;
+      color: #000;
+      font-size: 16px;
+      text-decoration: none;
+      border-top: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+
+      @media (max-width: 1023px) {
+        padding: 0.5em 1em;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+
+        &:hover {
+          border-top: 1px solid #000;
+          border-bottom: 1px solid #000;
+        }
+      }
+
+      &:hover {
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+      }
+    }
+
+    a {
+      cursor: pointer;
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

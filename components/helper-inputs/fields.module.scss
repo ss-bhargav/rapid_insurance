@@ -1,0 +1,79 @@
+.input_data_list {
+  background-color: #ededf3;
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+  top: 100%;
+
+  ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  li {
+    border-bottom: 1px solid gray;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+  }
+  li:hover {
+    cursor: pointer;
+    background-color: #1b75ba;
+    color: #fff;
+    transition: all 0.2s ease-in;
+    --webkit-transition: all 0.2s ease-in;
+  }
+  .manufacturer_image {
+    filter: grayscale(1);
+    --webkit-filter: grayscale(1);
+    transition: all 0.2s ease-in-out;
+    --webkit-transition: all 0.2s ease-in-out;
+  }
+  .manufacturer_image:hover {
+    filter: none;
+    --webkit-filter: grayscale(0);
+    transition: all 0.2s ease-in-out;
+    --webkit-transition: all 0.2s ease-in-out;
+  }
+}
+.input_data_list::-webkit-scrollbar {
+  display: block;
+  width: 5px;
+}
+
+.input_data_list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.input_data_list::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 20px;
+}
+
+.input_data_list::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  // margin-bottom: 10px;
+}
+
+.input_data_list::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  // margin-top: 145px;
+}
+
+.container_block {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  position: relative;
+  // hide the browser default radio button
+}
+
+.container_block:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 2px #1b75ba;
+  outline: 0 none;
+  border: 1px solid #1b75ba;
+  color: #1b75ba;
+  cursor: pointer;
+}

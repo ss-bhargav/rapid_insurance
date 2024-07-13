@@ -1,0 +1,107 @@
+const allAddonsAndCovers = {
+     c_limit_tppd: Boolean(),
+     c_legal_liability_pd: Boolean(),
+     c_legal_liability_pe: Boolean(),
+     c_pa_unnamed_passenger: Number(),
+     c_valid_driving_license: Boolean(),
+     c_more_than_one_vehicle: Boolean(),
+     c_pa_cover_owner_driver: Boolean(),
+     c_extension_country: Boolean(),
+     c_lpg_cng_kit: Number(),
+     c_electrical_accessories: Number(),
+     c_non_electrical_accessories: Number(),
+     c_anti_theif: Boolean(),
+     c_handicap: Boolean(),
+     c_automobile_association: Boolean(),
+     c_voluntary_excess: Number(),
+     c_side_car: Number(),
+     c_engine_secure: Boolean(),
+     c_personal_belongings: Boolean(),
+     c_additional_tppd: Boolean(),
+     c_additional_paod: Boolean(),
+     c_additional_paup: Boolean(),
+}
+
+const addonsAndCovers = {
+     icici: {
+          two_wheeler: {
+               c_limit_tppd: Boolean(),
+               c_legal_liability_pd: Boolean(),
+               c_legal_liability_pe: Boolean(),
+               c_pa_unnamed_passenger: Number(),
+               c_valid_driving_license: Boolean(),
+               c_more_than_one_vehicle: Boolean(),
+               c_pa_cover_owner_driver: Boolean(),
+               c_extension_country: Boolean(),
+          },
+          privare_car: {
+               c_lpg_cng_kit: Number(),
+               c_legal_liability_pd: Boolean(),
+               c_valid_driving_license: Boolean(),
+               c_more_than_one_vehicle: Boolean(),
+               c_pa_cover_owner_driver: Boolean(),
+               c_electrical_accessories: Number(),
+               c_non_electrical_accessories: Number(),
+               c_pa_unnamed_passenger: Number(),
+               c_anti_theif: Boolean(),
+               c_extension_country: Boolean(),
+               c_handicap: Boolean(),
+               c_automobile_association: Boolean(),
+          }
+     },
+     tataAig: {
+          two_wheeler: {
+               c_electrical_accessories: Number(),
+               c_non_electrical_accessories: Number(),
+               c_anti_theif: Boolean(),
+               c_voluntary_excess: Number(),
+               c_limit_tppd: Boolean(),
+               c_side_car: Number(),
+               c_pa_unnamed_passenger: Number(),
+               c_legal_liability_pd: Boolean(),
+               c_engine_secure: Boolean(),
+               c_personal_belongings: Boolean(),
+               c_additional_tppd: Boolean(),
+               c_additional_paod: Boolean(),
+               c_additional_paup: Boolean(),
+          },
+          privare_car: {
+               c_electrical_accessories: Number(),
+               c_non_electrical_accessories: Number(),
+               c_anti_theif: Boolean(),
+               c_voluntary_excess: Number(),
+               c_limit_tppd: Boolean(),
+               c_pa_unnamed_passenger: Number(),
+               c_legal_liability_pd: Boolean(),
+               c_engine_secure: Boolean(),
+               c_personal_belongings: Boolean(),
+               c_additional_tppd: Boolean(),
+               c_additional_paod: Boolean(),
+               c_additional_paup: Boolean(),
+          }
+     },
+     kotak: {
+          two_wheeler: {
+               c_electrical_accessories: Number(),
+               c_non_electrical_accessories: Number(),
+               c_anti_theif: Boolean(),
+               c_voluntary_excess: Number(),
+               c_limit_tppd: Boolean(),
+               c_pa_cover_owner_driver: Boolean(),
+               c_pa_unnamed_passenger: Number(),
+               c_legal_liability_pd: Boolean(),
+
+          },
+          privare_car: {
+               c_electrical_accessories: Number(),
+               c_non_electrical_accessories: Number(),
+               c_anti_theif: Boolean(),
+               c_voluntary_excess: Number(),
+               c_limit_tppd: Boolean(),
+               c_pa_cover_owner_driver: Boolean(),
+               c_pa_unnamed_passenger: Number(),
+               c_legal_liability_pd: Boolean(),
+
+          }
+     }
+}

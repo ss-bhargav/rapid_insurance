@@ -1,0 +1,111 @@
+.footer {
+    width : 100%;
+    background-color : #000;
+    color : #fff;
+    display : flex;
+    justify-content : space-around;
+    padding : 1rem 3rem;
+
+    h5{
+        text-align : center;
+    }
+
+    ul{
+
+    }
+
+    li {
+        list-style: none;
+        padding: 0.5em 2em;
+        transition: 0.3s ease;
+        color: #000;
+        font-size: 16px;
+        text-decoration: none;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+
+        @media (max-width: 1023px) {
+            padding: 0.5em 1em;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+
+            &:hover {
+                border-top: 1px solid #fff;
+                border-bottom: 1px solid #fff;
+            }
+        }
+
+        &:hover {
+            border-top: 2px solid #fff;
+            border-bottom: 2px solid #fff;
+        }
+    }
+
+    a {
+        cursor: pointer;
+        text-decoration: none;
+        color: #fff;
+    }
+
+
+    .links {
+        display : flex;
+        justify-content : space-around;
+        flex-grow:  2;
+    }
+
+    .insurance {
+        
+    }
+
+
+    .tools{
+
+    }
+
+    .myAccount{
+
+    }
+
+    .connect{
+        text-align : center;
+        flex-grow:  1;
+
+        label {
+            padding : 0.5rem;
+        }
+
+        input {
+            width : 100%;
+            padding : 0.2rem;
+            margin-bottom: 1rem;
+        }
+
+        button {
+            border: 0 solid;
+            box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+            outline: 1px solid;
+            padding :  0.5rem 2rem;
+            outline-color: rgba(255, 255, 255, 0);
+            outline-offset: 0px;
+            text-shadow: none;
+            -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+                    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+            outline-color: rgba(255, 255, 255);
+            outline-offset: 0px;
+            background-color: rgba(0,0,0,0.5);
+            color: rgba(255, 255, 255)
+          }
+          
+          button:hover {
+            border: 1px solid;
+            box-shadow: inset 0 0 20px rgba(255, 255, 255), 0 0 20px rgba(255, 255, 255);
+            outline-offset: 15px;
+            outline-color: rgba(255, 255, 255, 0);
+            text-shadow: 1px 1px 2px #427388;
+          }
+          
+    }
+
+
+}

@@ -1,0 +1,18 @@
+.payment_failure{
+     display: flex;
+     height : 80vh;
+     overflow : hidden;
+     flex-direction : column;
+
+     .banner_content{
+          text-align: center;
+          margin-top: 2rem;
+     }
+
+     .banner_image{
+          display: flex;
+          justify-content: center;
+     }
+
+
+}

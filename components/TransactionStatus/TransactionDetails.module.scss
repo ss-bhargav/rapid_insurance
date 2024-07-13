@@ -1,0 +1,102 @@
+.successPageWrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  height: 92vh;
+  background-color: rgba(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .successMsgWrapper {
+    height: 650px;
+    width: 800px;
+    background-color: hsl(0, 0%, 90%);
+    box-shadow: 0px 0px 15px hsl(0, 0%, 90%);
+    border-radius: 5px;
+
+    .successIcon {
+      padding: 10px 0px;
+      text-align: center;
+    }
+  }
+}
+
+.savePolicyAndDownload {
+  width: 100%;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .errorMessage {
+    width: 500px;
+    height: auto;
+
+    p {
+      color: red;
+      font-weight: bold;
+    }
+  }
+
+  .savePolicy {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .download {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.transactionDetails {
+  padding-left: 40px;
+
+  .transactionKey {
+    margin-bottom: 10px;
+  }
+
+  .textColor {
+    color: #3fa2da;
+  }
+
+  .transactionDetail {
+    display: grid;
+    grid-template-columns: 150px auto;
+  }
+}
+
+.transactionAmount {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0px 40px;
+
+  .transactionAmountItem {
+    display: grid;
+    grid-template-columns: 290px 50px;
+  }
+}
+
+@media only screen and (min-width: 290px) and (max-width: 991px) {
+  .transactionAmount {
+    display: initial;
+  }
+
+  .transactionAmountItem {
+    padding-left: 15px;
+  }
+
+  .successMsgWrapper {
+    height: 710px !important;
+  }
+}
